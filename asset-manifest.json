@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/abecodes/static/css/main.32c37dab.css",
-    "main.js": "/abecodes/static/js/main.1c8081d1.js",
+    "main.css": "/abecodes/static/css/main.16d99320.css",
+    "main.js": "/abecodes/static/js/main.496a0f8b.js",
     "static/js/787.e47ac0af.chunk.js": "/abecodes/static/js/787.e47ac0af.chunk.js",
     "static/media/road-rescue-thumb.png": "/abecodes/static/media/road-rescue-thumb.06b2fe2f92e02e927b63.png",
+    "static/media/dev-at-desk.png": "/abecodes/static/media/dev-at-desk.bf6f093afcb8d7cf5835.png",
     "static/media/abecodes.png": "/abecodes/static/media/abecodes.5dda641c939e979ee976.png",
-    "static/media/bi-wave-lines-3.svg": "/abecodes/static/media/bi-wave-lines-3.27251c1bb4b86accfcc2.svg",
+    "static/media/bi-wave-lines-2.svg": "/abecodes/static/media/bi-wave-lines-2.c3c672f1531bff7922aa.svg",
     "static/media/github.svg": "/abecodes/static/media/github.ee8176080b22d186a690aea18b94df01.svg",
     "static/media/twitter.svg": "/abecodes/static/media/twitter.8a1d1501ecf4501854752bdf47049592.svg",
     "index.html": "/abecodes/index.html",
     "static/media/envelope.svg": "/abecodes/static/media/envelope.61a0ec1dda10140c497043a5973b8c0a.svg",
     "static/media/linkedin.svg": "/abecodes/static/media/linkedin.ef466c769abff4a738212a9e02950df4.svg",
-    "main.32c37dab.css.map": "/abecodes/static/css/main.32c37dab.css.map",
-    "main.1c8081d1.js.map": "/abecodes/static/js/main.1c8081d1.js.map",
+    "main.16d99320.css.map": "/abecodes/static/css/main.16d99320.css.map",
+    "main.496a0f8b.js.map": "/abecodes/static/js/main.496a0f8b.js.map",
     "787.e47ac0af.chunk.js.map": "/abecodes/static/js/787.e47ac0af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32c37dab.css",
-    "static/js/main.1c8081d1.js"
+    "static/css/main.16d99320.css",
+    "static/js/main.496a0f8b.js"
   ]
 }
