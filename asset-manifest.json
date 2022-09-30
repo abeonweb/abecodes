@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abecodes/static/css/main.2fb61619.css",
-    "main.js": "/abecodes/static/js/main.496a0f8b.js",
+    "main.css": "/abecodes/static/css/main.568b9f87.css",
+    "main.js": "/abecodes/static/js/main.ae80cd27.js",
     "static/js/787.e47ac0af.chunk.js": "/abecodes/static/js/787.e47ac0af.chunk.js",
     "static/media/road-rescue-thumb.png": "/abecodes/static/media/road-rescue-thumb.06b2fe2f92e02e927b63.png",
     "static/media/dev-at-desk.png": "/abecodes/static/media/dev-at-desk.bf6f093afcb8d7cf5835.png",
@@ -12,12 +12,12 @@
     "index.html": "/abecodes/index.html",
     "static/media/envelope.svg": "/abecodes/static/media/envelope.61a0ec1dda10140c497043a5973b8c0a.svg",
     "static/media/linkedin.svg": "/abecodes/static/media/linkedin.ef466c769abff4a738212a9e02950df4.svg",
-    "main.2fb61619.css.map": "/abecodes/static/css/main.2fb61619.css.map",
-    "main.496a0f8b.js.map": "/abecodes/static/js/main.496a0f8b.js.map",
+    "main.568b9f87.css.map": "/abecodes/static/css/main.568b9f87.css.map",
+    "main.ae80cd27.js.map": "/abecodes/static/js/main.ae80cd27.js.map",
     "787.e47ac0af.chunk.js.map": "/abecodes/static/js/787.e47ac0af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fb61619.css",
-    "static/js/main.496a0f8b.js"
+    "static/css/main.568b9f87.css",
+    "static/js/main.ae80cd27.js"
   ]
 }
