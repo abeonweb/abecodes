@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abecodes/static/css/main.8951f1a0.css",
-    "main.js": "/abecodes/static/js/main.f575840e.js",
+    "main.js": "/abecodes/static/js/main.00369a4c.js",
     "static/js/787.e47ac0af.chunk.js": "/abecodes/static/js/787.e47ac0af.chunk.js",
     "static/media/road-rescue-thumb.png": "/abecodes/static/media/road-rescue-thumb.06b2fe2f92e02e927b63.png",
     "static/media/dev-at-desk.png": "/abecodes/static/media/dev-at-desk.bf6f093afcb8d7cf5835.png",
@@ -32,11 +32,11 @@
     "static/media/linkedin.svg": "/abecodes/static/media/linkedin.ef466c769abff4a738212a9e02950df4.svg",
     "static/media/material-ui.svg": "/abecodes/static/media/material-ui.720f89e823f5301b8552.svg",
     "main.8951f1a0.css.map": "/abecodes/static/css/main.8951f1a0.css.map",
-    "main.f575840e.js.map": "/abecodes/static/js/main.f575840e.js.map",
+    "main.00369a4c.js.map": "/abecodes/static/js/main.00369a4c.js.map",
     "787.e47ac0af.chunk.js.map": "/abecodes/static/js/787.e47ac0af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8951f1a0.css",
-    "static/js/main.f575840e.js"
+    "static/js/main.00369a4c.js"
   ]
 }
