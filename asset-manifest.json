@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/abecodes/static/css/main.6179d265.css",
-    "main.js": "/abecodes/static/js/main.4c182f87.js",
+    "main.css": "/abecodes/static/css/main.e46650d6.css",
+    "main.js": "/abecodes/static/js/main.129400b2.js",
     "static/js/787.e47ac0af.chunk.js": "/abecodes/static/js/787.e47ac0af.chunk.js",
-    "static/media/road-rescue-thumb.png": "/abecodes/static/media/road-rescue-thumb.06b2fe2f92e02e927b63.png",
-    "static/media/placeholder.png": "/abecodes/static/media/placeholder.81061afb5f33001f1853.png",
-    "static/media/dev-at-desk.png": "/abecodes/static/media/dev-at-desk.bf6f093afcb8d7cf5835.png",
+    "static/media/reach.webp": "/abecodes/static/media/reach.b4ce76b22794013eadae.webp",
+    "static/media/road-rescue.webp": "/abecodes/static/media/road-rescue.fb1cfc64afdcebeb21df.webp",
+    "static/media/movie-watch-list.webp": "/abecodes/static/media/movie-watch-list.0ee019229c7a543942c3.webp",
     "static/media/abecodes.png": "/abecodes/static/media/abecodes.8229539af31b4516745b.png",
+    "static/media/emoji-journal.webp": "/abecodes/static/media/emoji-journal.97fb8938c4f37d7e3fa8.webp",
+    "static/media/placeholder.webp": "/abecodes/static/media/placeholder.583a043a3063ea3abf8e.webp",
     "static/media/react.svg": "/abecodes/static/media/react.d9ae6f722679b9a7bba8.svg",
     "static/media/bi-wave-lines-3.svg": "/abecodes/static/media/bi-wave-lines-3.27251c1bb4b86accfcc2.svg",
     "static/media/bi-wave-lines-2.svg": "/abecodes/static/media/bi-wave-lines-2.c3c672f1531bff7922aa.svg",
@@ -32,12 +34,12 @@
     "static/media/figma.svg": "/abecodes/static/media/figma.dd570c9fd39c67c277ec.svg",
     "static/media/linkedin.svg": "/abecodes/static/media/linkedin.ef466c769abff4a738212a9e02950df4.svg",
     "static/media/material-ui.svg": "/abecodes/static/media/material-ui.720f89e823f5301b8552.svg",
-    "main.6179d265.css.map": "/abecodes/static/css/main.6179d265.css.map",
-    "main.4c182f87.js.map": "/abecodes/static/js/main.4c182f87.js.map",
+    "main.e46650d6.css.map": "/abecodes/static/css/main.e46650d6.css.map",
+    "main.129400b2.js.map": "/abecodes/static/js/main.129400b2.js.map",
     "787.e47ac0af.chunk.js.map": "/abecodes/static/js/787.e47ac0af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6179d265.css",
-    "static/js/main.4c182f87.js"
+    "static/css/main.e46650d6.css",
+    "static/js/main.129400b2.js"
   ]
 }
