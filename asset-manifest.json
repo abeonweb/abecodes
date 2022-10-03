@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/abecodes/static/css/main.8cc7af29.css",
-    "main.js": "/abecodes/static/js/main.471869ec.js",
+    "main.css": "/abecodes/static/css/main.6179d265.css",
+    "main.js": "/abecodes/static/js/main.4c182f87.js",
     "static/js/787.e47ac0af.chunk.js": "/abecodes/static/js/787.e47ac0af.chunk.js",
     "static/media/road-rescue-thumb.png": "/abecodes/static/media/road-rescue-thumb.06b2fe2f92e02e927b63.png",
+    "static/media/placeholder.png": "/abecodes/static/media/placeholder.81061afb5f33001f1853.png",
     "static/media/dev-at-desk.png": "/abecodes/static/media/dev-at-desk.bf6f093afcb8d7cf5835.png",
     "static/media/abecodes.png": "/abecodes/static/media/abecodes.8229539af31b4516745b.png",
     "static/media/react.svg": "/abecodes/static/media/react.d9ae6f722679b9a7bba8.svg",
@@ -31,12 +32,12 @@
     "static/media/figma.svg": "/abecodes/static/media/figma.dd570c9fd39c67c277ec.svg",
     "static/media/linkedin.svg": "/abecodes/static/media/linkedin.ef466c769abff4a738212a9e02950df4.svg",
     "static/media/material-ui.svg": "/abecodes/static/media/material-ui.720f89e823f5301b8552.svg",
-    "main.8cc7af29.css.map": "/abecodes/static/css/main.8cc7af29.css.map",
-    "main.471869ec.js.map": "/abecodes/static/js/main.471869ec.js.map",
+    "main.6179d265.css.map": "/abecodes/static/css/main.6179d265.css.map",
+    "main.4c182f87.js.map": "/abecodes/static/js/main.4c182f87.js.map",
     "787.e47ac0af.chunk.js.map": "/abecodes/static/js/787.e47ac0af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cc7af29.css",
-    "static/js/main.471869ec.js"
+    "static/css/main.6179d265.css",
+    "static/js/main.4c182f87.js"
   ]
 }
