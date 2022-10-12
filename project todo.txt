@@ -1,0 +1,100 @@
+1. collate icons: html, css, react, material-ui, github, typescript, java, javascript...
+2. decide on projects to add: road rescue, 
+3. add footer component
+4. observe, emulate from video
+5. produce compelling copy of career
+6. add detailed description on each project page
+7. blog
+
+logo animation across the screen reveals the page title
+logo disappears, title remains
+
+appear on scroll
+
+add contact form and email address
+
+watch image size and quality
+
+easy access to resume
+
+
+TODAY
+
+2. MIMIC ALEJANDRO / KARAN
+3. CREATE PAGE PROGRAMATICALLY OFF PROJECT CLICKED
+
+
+
+Hero.
+
+Helping people and learning new things give me drive.
+I have a love hate relationship with coffee
+
+
+
+ABOUT ME
+before
+I first became interested inn web development in 2015.
+At that time, I found some resources on the internet here
+and there. I was not able to make heads or tails out of 
+any of it. I went back to work and forgot a bout it. 
+After some time, I heard about Scrimba Frontend Career
+Path and regained interest. 
+
+present
+Now, all I love to do is code. I have the ability to bring
+projects to life through planning and shear will. That brings
+me a lot of fulfillment. Being a part of a project, a dream
+to help people. Getting it done and then moving on to the next
+one. It all makes me jump out of bed in the morning :)
+
+In the future I hope to be able to collaborate with many more
+people and learn so much more. I have learnt to keep my eyes
+open to any opprtunities to learn something new while keeping
+a close eye on thing already learnt. In programming things 
+change quickly. You have to stay on your toes. I like that.
+
+
+BLOG: ABOUT WHAT CHALLENGES YOU FACE IN DEVELOPMENT/SOLN
+
+CREATE POSTS IN A CLICKABLE DIV
+
+TITLE
+DATE
+DESCRIPTION
+
+
+
+PROJECT
+
+IMAGE
+TITLE
+STACK USED
+DESCRIBE
+
+{
+id: 1,
+title: "Road Rescue and Maintenance Company",
+description: "A solo project designed and developed by me. Through in depth engagement with the company CEO, I was able to ascertain what the vision the company had in mind. React was used because of its client side rendering to boost performance",
+
+stack: ["React", "Javascript", "CSS3", "Material UI"]
+}
+
+
+control the state of two links on the same page using state
+set the clicked one to true and other to false
+identify the clicked by passing its id to the function
+if home is true, contact is false
+if contact is true, home is false
+
+
+
+
+
+
+
+
+
+
+
+

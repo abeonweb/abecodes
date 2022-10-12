@@ -1,0 +1,250 @@
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+
+
+.section {
+  min-height: 80vh;
+  padding: 5em 2em 3em;
+}
+
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+.logo {
+  height: 10em;
+  padding: 1em;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #b4b8f9aa);
+}
+
+
+
+
+
+.title {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 1.5em 0 0.2em;
+}
+
+.secondary-title {
+  display: block;
+}
+
+.page-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+/* ========== HERO ========== */
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-light);
+  align-items: center;
+  background: rgb(36, 36, 36);
+  background: linear-gradient(156deg, rgba(36, 36, 36, 1) 0%, rgba(20, 20, 94, 1) 54%, rgba(4, 121, 145, 1) 100%);
+  text-shadow: 1px 1px 2px var(--clr-dark);
+}
+
+.hero-info-container {
+  padding: 0 1.5em;
+}
+
+.block-2 {
+  height: 10px;
+  width: 60%;
+  display: none;
+  
+}
+
+
+
+.job-title {
+  font-size: 0.5em;
+}
+
+.hero-body {
+  width: 90%;
+  max-width: 450px;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.social-media {
+  padding: 1em 0;
+}
+
+.social-media-list {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-icon {
+  width: 20px;
+  
+}
+
+/* ========================= Utility =========================  */
+
+.on-hover {
+  filter: invert(31%) sepia(87%) saturate(1309%) hue-rotate(130deg) brightness(106%) contrast(103%);
+}
+
+.highlight {
+  color: var(--clr-highlight);
+}
+
+.not-found {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.not-found>div {
+  height: fit-content;
+}
+
+
+
+
+
+/* ====================== BLOG ====================== */
+
+
+
+
+/* ====================== CONTACT ====================== */
+/* .contact{
+  padding-top: 2.5em;
+} */
+
+.contact-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 1.5em ;
+  text-align: center;
+}
+
+.email-container{
+  max-width: 500px;
+  margin: 2em auto 2em;
+}
+.email-address{
+  color: var(--clr-highlight);
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+/* ====================== MEDIA QUERIES ====================== */
+@media (min-width: 800px) {
+  
+  .hero-info-container {
+    padding: 0 0 0 6em;
+  }
+  
+  .block-2 {
+    width: 20%;
+    display: block;
+    padding: 0;
+  }
+  
+  .social-media-icon {
+    width: 30px;
+    
+  }
+}
+
+@media (max-width: 800px) {
+  
+  .hero-info-container {
+    padding: 0 2em 0 2em; 
+  }
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero {
+    background: url("./images/wave-lines.svg"), linear-gradient(-45deg, #0b749a, #1d43ab, #12627f, #12558c);
+    background-size: 600% 100%;
+    animation: gradient 40s ease infinite;
+  }
+  
+  .logo,
+  .nav-logo {
+    animation: logo-flip 1.75s ease-in;
+  }
+
+  .stack-image:hover,
+  .stack-image:active {
+    animation: resize 500ms ease-in-out;
+  }
+  
+  
+}
+
+
+@keyframes resize {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes logo-flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 50% 50%;
+  }
+}

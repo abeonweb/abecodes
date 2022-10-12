@@ -1,0 +1,120 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-container {
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form--display-container{
+    align-self: center;
+}
+
+.form--display-container h3{
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-page-title {
+    font-size: 2em;
+}
+
+.form-info {
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+.form-info:first-of-type {
+    margin: 1em 0 0.3em;
+}
+
+.input-container {
+    margin-bottom: 1em;
+}
+
+.form-input {
+    width: 100%;
+
+    border: none;
+    border-radius: 40px;
+}
+
+.message {
+    height: 200px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.form-input,
+.message {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1em;
+    padding: 0.8em 1.3em;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+::placeholder {
+    color: rgb(241, 253, 255);
+}
+
+.contact-form-btn,
+.form-btn-submit {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 700;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 6px;
+    color: var(--clr-light);
+    cursor: pointer;
+}
+
+.contact-form-btn {
+    display: block;
+    background-color: var(--clr-dark);
+    width: 150px;
+    margin: 2em auto;
+
+}
+
+.form-btn-submit {
+    background-color: var(--clr-dark);
+    margin: 0 0 1.5em;
+}
+
+.contact-form-btn:hover,
+.contact-form-btn:active,
+.form-btn-submit:hover,
+.form-btn-submit:active {
+    -webkit-box-shadow: 6px 19px 17px -15px rgba(38, 38, 38, 0.67);
+    -moz-box-shadow: 6px 19px 17px -15px rgba(38, 38, 38, 0.67);
+    box-shadow: 6px 19px 17px -15px rgba(38, 38, 38, 0.67);
+}
+
+.contact-form-btn:hover,
+.contact-form-btn:active {
+    background: rgb(246, 151, 45);
+    background: linear-gradient(25deg, rgba(246, 151, 45, 1) 0%, rgba(246, 144, 29, 1) 52%, rgba(227, 124, 9, 1) 100%);
+}
+
+
+.form-btn-submit:hover,
+.form-btn-submit:focus,
+.form-btn-submit:active {
+    background-color: var(--clr-highlight);
+    color: var(--clr-light);
+    outline: none;
+
+}
