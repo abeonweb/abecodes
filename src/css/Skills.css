@@ -240,16 +240,16 @@
 
   .project-flex-container {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .project-info-container,
   .project-image-container {
-    width: 47.5%;
+    width: 45%;
   }
 
   .project-image-container {
-    width: 90%;
+    width: 45%;
     align-self: center;
     display: flex;
     flex-direction: column;

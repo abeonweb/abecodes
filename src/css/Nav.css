@@ -168,14 +168,11 @@
   margin: 0;
 }
 
-.nav-open .nav-list li a {
+.nav-list li a:hover,
+.nav-open .nav-list li a:active{
   text-decoration: 3px underline var(--clr-highlight);
   text-underline-offset: 8px;
-}
-
-.nav-open .nav-list li a:hover {
-  text-decoration: 3px double var(--clr-highlight);
-  text-decoration-line: underline;
+  color: var(--clr-highlight);
 }
 
 
