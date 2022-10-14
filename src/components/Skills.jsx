@@ -7,7 +7,7 @@ export default function Skills() {
     const skillsList = skills.map((skill, index) => (
         <li key={index} className="tech-stack-list-item">
             <div className="stack-image-container">
-                <img src={require("../images/" + skill.image + ".svg")} alt={`${skill.name} icon`} className="stack-image" />
+                <img src={require("../images/" + skill.image + ".svg")}  loading="lazy" alt={`${skill.name} icon`} className="stack-image" />
             </div>
             <div className="skill-name">{skill.name}</div>
         </li>

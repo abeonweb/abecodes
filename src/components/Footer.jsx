@@ -62,22 +62,22 @@ export default function Footer() {
                     <ul className="footer-nav-list-icons">
                         <li>
                             <a href="https://www.linkedin.com/in/abeonweb/" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={linkedin} alt="twitter" className="footer-social-icon" />
+                                <img src={linkedin} alt="twitter" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={twitter} alt="facebook" className="footer-social-icon" />
+                                <img src={twitter} alt="facebook" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
                             <a href="https://github.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={githubSocial} alt="instagram" className="footer-social-icon" />
+                                <img src={githubSocial} alt="instagram" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
                             <a href="mailto:abiodunoke@hotmail.com" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={email} alt="email" className="footer-social-icon" />
+                                <img src={email} alt="email" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                     </ul>

@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
@@ -42,5 +42,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/register": "^7.18.9",
+    "babel-preset-react-app": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "jasmine": "^4.4.0",
+    "jsdom": "^20.0.1"
   }
 }

@@ -20,7 +20,7 @@ export default function Project(props) {
                     </div>
                 </div>
                 <div className="project-image-container">
-                    <img src={require("../images/" + props.project.image + ".webp")} alt={props.project.alt} className="project-image" />
+                    <img src={require("../images/" + props.project.image + ".webp")} alt={props.project.alt} loading="lazy" className="project-image" />
                 </div>
             </div>
         </article>
