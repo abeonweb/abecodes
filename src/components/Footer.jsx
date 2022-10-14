@@ -61,22 +61,22 @@ export default function Footer() {
                     <h4 className="footer-social-media-text">Let&apos;s connect.</h4>
                     <ul className="footer-nav-list-icons">
                         <li>
-                            <a href="https://www.linkedin.com/in/abeonweb/" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={linkedin} alt="twitter" className="footer-social-icon"  loading="lazy" />
+                            <a href="https://www.linkedin.com/in/abeonweb/" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="linkedin">
+                                <img src={linkedin} alt="linkedin" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={twitter} alt="facebook" className="footer-social-icon"  loading="lazy" />
+                            <a href="https://twitter.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="twitter">
+                                <img src={twitter} alt="twitter" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
-                                <img src={githubSocial} alt="instagram" className="footer-social-icon"  loading="lazy" />
+                            <a href="https://github.com/abeonweb" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="github">
+                                <img src={githubSocial} alt="github" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:abiodunoke@hotmail.com" target="_blank" className="footer-social-link" rel=" noopener noreferrer">
+                            <a href="mailto:abiodunoke@hotmail.com" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="email">
                                 <img src={email} alt="email" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
