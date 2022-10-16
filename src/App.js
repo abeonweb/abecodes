@@ -11,7 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <Routes>
-      <Route path="/abecodes" element={<SharedLayout />}>
+      <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route path="work" element={<MyWork />} />
         {/* <Route path="blog" element={<Blog />} /> */}

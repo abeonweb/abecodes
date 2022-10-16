@@ -1,12 +1,12 @@
 const links = [
     {
         name: "Home",
-        link: "/abecodes#home-hero",
+        link: "/#home-hero",
         id:1
     },
     {
         name: "Portfolio",
-        link: "/abecodes#work",
+        link: "/#work",
         id:2
     },
     // {
@@ -21,7 +21,7 @@ const links = [
     },
     {
         name: "Contact",
-        link: "/abecodes#contact",
+        link: "/#contact",
         id:5
     },
 ]

@@ -8,7 +8,7 @@ function NotFound() {
         <img src={abecodes} className="logo" alt="Abe codes logo"  loading="lazy" />
         <h1 className="title">Oops!</h1>
         <p className="subtitle on-hover">Something went wrong. Sorry about.</p>
-        <Link to="/abecodes">Back to Homepage</Link>
+        <Link to="/">Back to Homepage</Link>
       </div>
     </main>
   );
