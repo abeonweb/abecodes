@@ -16,7 +16,7 @@ export default function Contact() {
           <h3>
             Shoot me an email
           </h3>
-          <a href="mailto: abiodunoke@hotmail.com" className="email-address">abiodunoke@hotmail.com</a>
+          <a href="mailto: contact@abecodes.com" className="email-address">contact@abecodes.com</a>
         </div>
 
 
