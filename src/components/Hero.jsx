@@ -24,6 +24,7 @@ function Hero() {
                 target="_blank"
                 rel="noreferrer"
                 arial-label="find me on linkedin"
+                title="linkedIn"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 448 512" className="social-media-icon">
                   <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 
@@ -40,6 +41,7 @@ function Hero() {
                 target="_blank"
                 rel="noreferrer"
                 arial-label="find me on github"
+                title="github"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 496 512" className="social-media-icon">
                   <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 
@@ -63,6 +65,7 @@ function Hero() {
                 target="_blank"
                 rel="noreferrer"
                 arial-label="find me on twitter"
+                title="twitter"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 512 512" className="social-media-icon">
                   <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 
@@ -78,10 +81,11 @@ function Hero() {
             </li>
             <li>
               <a
-                href="mailto:abiodunoke@hotmail.com"
+                href="mailto:contact@abecodes.com"
                 target="_blank"
                 rel="noreferrer"
-                arial-label="email me abiodunoke@hotmail.com"
+                arial-label="email me contact@abecodes.com"
+                title="email"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 512 512" className="social-media-icon">
                   <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 

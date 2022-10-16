@@ -76,7 +76,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:abiodunoke@hotmail.com" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="email">
+                            <a href="mailto:contact@abecodes.com" target="_blank" className="footer-social-link" rel=" noopener noreferrer" title="email">
                                 <img src={email} alt="email" className="footer-social-icon"  loading="lazy" />
                             </a>
                         </li>
