@@ -1,5 +1,5 @@
 import React from "react"
-import { Formik, Form } from "formik"
+import { Formik, Form, Field, ErrorMessage } from "formik"
 import * as Yup from "yup"
 // import "animate.css"
 import "../css/Form.css"
@@ -7,10 +7,9 @@ import "../css/Form.css"
 export default function ContactForm(props) {
 
     const initialValues = {
-        firstname: "",
-        lastname: "",
+        name: "",
         email: "",
-        policyChecked: false
+        message: ""
     }
 
     const handleSubmit = (values, helpers) => {
@@ -19,10 +18,7 @@ export default function ContactForm(props) {
     }
 
     const validationSchema = Yup.object({
-        firstname: Yup.string()
-            .max(20, "Maximum 20 characters")
-            .required("Required"),
-        lastname: Yup.string()
+        name: Yup.string()
             .max(20, "Maximum 20 characters")
             .required("Required"),
         email: Yup.string()
@@ -38,77 +34,23 @@ export default function ContactForm(props) {
             <h2 className="title form-page-title">Contact Form</h2>
             <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                 {props => {
-                    const { handleBlur, handleChange, values, touched, errors } = props
-                    console.log(props)
                     return (
                         <Form>
                             <p className="form-info">Leave your contact information and a detailed message.</p>
                             <p className="form-info">I will get in contact using the information you provide.</p>
                             <div className="input-container">
-                                <input
-                                    className="form-input"
-                                    onBlur={handleBlur}
-                                    onChange={handleChange}
-                                    value={values.firstname}
-                                    type="text"
-                                    name="firstname"
-                                    id=""
-                                    aria-label="firstname"
-                                    placeholder="First Name"
-                                />
-                                {touched.firstname && errors.firstname &&
-                                    <p className="error-message">{errors.firstname}</p>
-                                }
+                                <Field name="name" className="form-input" placeholder="Full Name" />
+                                <ErrorMessage className="error-message" component="p" name="name" />
                             </div>
 
                             <div className="input-container">
-                                <input
-                                    className="form-input"
-                                    onBlur={handleBlur}
-                                    onChange={handleChange}
-                                    value={values.lastname}
-                                    type="text"
-                                    name="lastname"
-                                    id=""
-                                    aria-label="lastname"
-                                    placeholder="Last Name"
-                                />
-                                {touched.lastname && errors.lastname &&
-                                    <p className="error-message">{errors.lastname}</p>
-                                }
+                                <Field name="email" className="form-input" placeholder="Email" />
+                                <ErrorMessage className="error-message" component="p" name="email" />
                             </div>
 
                             <div className="input-container">
-                                <input
-                                    className="form-input"
-                                    onBlur={handleBlur}
-                                    onChange={handleChange}
-                                    value={values.email}
-                                    type="email"
-                                    name="email"
-                                    id=""
-                                    aria-label="email"
-                                    placeholder="Email"
-                                />
-                                {touched.email && errors.email &&
-                                    <p className="error-message">{errors.email}</p>
-                                }
-                            </div>
-
-                            <div className="input-container">
-                                    <textarea
-                                        onBlur={handleBlur}
-                                        onChange={handleChange}
-                                        value={values.message}
-                                        type="text"
-                                        name="message"
-                                        className="form-input message"
-                                        aria-label="message"
-                                        placeholder="Message"
-                                    />
-                                    {touched.message && errors.message &&
-                                        <p className="error-message">{errors.message}</p>
-                                    }
+                                <Field as="textarea" name="message" className="form-input message" placeholder="Message" />
+                                <ErrorMessage className="error-message" component="p" name="message" />
                             </div>
 
                             <button
