@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import MyWork from "./pages/MyWork";
 import About from "./pages/About";
 // import Blog from "./pages/Blog";
+import Success from "./pages/Success"
 import NotFound from "./pages/NotFound";
 import SharedLayout from "./components/SharedLayout";
 import ScrollToTop from "./components/ScrollToTop";
@@ -16,6 +17,7 @@ function App() {
         <Route path="work" element={<MyWork />} />
         {/* <Route path="blog" element={<Blog />} /> */}
         <Route path="about" element={<About />} />
+        <Route path="success" element={<Success />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
