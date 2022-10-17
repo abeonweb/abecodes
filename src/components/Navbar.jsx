@@ -1,4 +1,4 @@
-import { useEffect} from "react";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom"
 import { HashLink } from 'react-router-hash-link';
 import  useToggle from "../hooks/useToggle";
@@ -32,7 +32,7 @@ function Navbar() {
        if (data.name === "Home" || data.name === "Contact"||data.name === "Portfolio") {
             return (
                 <li key={data.id}>
-                    <HashLink to={data.link} 
+                    <HashLink smooth to={data.link} 
                         className={"nav-link"}
                         onClick={handleClick}
                         >{data.name}
