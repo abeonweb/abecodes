@@ -25,7 +25,6 @@ export default function ContactForm(props) {
             body: encode({ "form-name": "contact", ...values })
         })
             .then(() => {
-                // <Redirect to="/pages/success" />
                 helpers.resetForm()
             })
             .catch(() => alert("There was an error. Please try again later."))
@@ -55,7 +54,7 @@ export default function ContactForm(props) {
             >
                 {props => {
                     return (
-                        <Form name="contact" action="/pages/success">
+                        <Form name="contact" action="/success">
                             <input type="hidden" name="form-name" value="contact" />
                             <p className="form-info">Leave your contact information and a detailed message.</p>
                             <p className="form-info">I will get in contact using the information you provide.</p>
