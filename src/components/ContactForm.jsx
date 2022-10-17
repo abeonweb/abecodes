@@ -6,6 +6,11 @@ import * as Yup from "yup"
 import "../css/Form.css"
 
 export default function ContactForm(props) {
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    }
 
     const initialValues = {
         name: "",
@@ -14,6 +19,17 @@ export default function ContactForm(props) {
     }
 
     const handleSubmit = (values, helpers) => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...values })
+        })
+            .then(() => {
+                // <Redirect to="/pages/success" />
+                helpers.resetForm()
+            })
+            .catch(() => alert("There was an error. Please try again later."))
+            .finally(()=> helpers.setSubmitting(false))
 
     }
 
@@ -32,10 +48,14 @@ export default function ContactForm(props) {
     return (
         <section id="form" className="form-container">
             <h2 className="title form-page-title">Contact Form</h2>
-            <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
+            <Formik
+                initialValues={initialValues}
+                validationSchema={validationSchema}
+                onSubmit={handleSubmit}
+            >
                 {props => {
                     return (
-                        <Form name="contact" method="post" action="/pages/success">
+                        <Form name="contact" action="/pages/success">
                             <input type="hidden" name="form-name" value="contact" />
                             <p className="form-info">Leave your contact information and a detailed message.</p>
                             <p className="form-info">I will get in contact using the information you provide.</p>
