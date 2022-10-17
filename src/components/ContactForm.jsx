@@ -25,6 +25,7 @@ export default function ContactForm(props) {
             body: encode({ "form-name": "contact", ...values })
         })
             .then(() => {
+                alert("Success")
                 helpers.resetForm()
             })
             .catch(() => alert("There was an error. Please try again later."))
