@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Form from "../components/Form"
+import ContactForm from "../components/ContactForm"
 
 export default function Contact() {
   const [showForm, setShowForm] = useState(false)
@@ -25,7 +25,7 @@ export default function Contact() {
             Or use the contact form below
           </h3>
           <button onClick={handleClick} className="contact-form-btn">{!showForm ? "Contact Form" : "Close Form"}</button>
-          {showForm && <Form />}
+          {showForm && <ContactForm />}
         </div>
       </div>
     </section>
