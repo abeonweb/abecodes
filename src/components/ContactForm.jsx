@@ -1,5 +1,6 @@
 import React from "react"
 import { Formik, Form, Field, ErrorMessage } from "formik"
+import axios from "axios"
 import * as Yup from "yup"
 // import "animate.css"
 import "../css/Form.css"
@@ -14,7 +15,6 @@ export default function ContactForm(props) {
 
     const handleSubmit = (values, helpers) => {
 
-        console.log(values)
     }
 
     const validationSchema = Yup.object({
@@ -35,7 +35,8 @@ export default function ContactForm(props) {
             <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                 {props => {
                     return (
-                        <Form>
+                        <Form name="contact" method="post" action="/pages/success">
+                            <input type="hidden" name="form-name" value="contact" />
                             <p className="form-info">Leave your contact information and a detailed message.</p>
                             <p className="form-info">I will get in contact using the information you provide.</p>
                             <div className="input-container">
