@@ -118,12 +118,18 @@
   color: var(--clr-highlight);
 }
 
+.success,
 .not-found {
   min-height: 100vh;
   text-align: center;
   display: flex;
   place-content: center;
   align-items: center;
+}
+
+.success p,
+.not-found p {
+  padding: 1em 0;
 }
 
 .not-found>div {
