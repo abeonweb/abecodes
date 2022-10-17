@@ -3,7 +3,7 @@ import abecodes from "../images/abecodes.png";
 
 function Success() {
   return (
-    <main className="not-found">
+    <main className="success">
       <div>
         <img src={abecodes} className="logo" alt="Abe codes logo" />
         <h1 className="title">Your Message has been sent</h1>
