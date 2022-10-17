@@ -1,11 +1,12 @@
-import React from "react"
+import { useNavigate } from "react-router-dom"
 import { Formik, Form, Field, ErrorMessage } from "formik"
-// import axios from "axios"
 import * as Yup from "yup"
 // import "animate.css"
 import "../css/Form.css"
 
 export default function ContactForm(props) {
+    const navigate = useNavigate()
+
     const encode = (data) => {
         return Object.keys(data)
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -25,7 +26,7 @@ export default function ContactForm(props) {
             body: encode({ "form-name": "contact", ...values })
         })
             .then(() => {
-                alert("Success")
+                navigate("/success")
                 helpers.resetForm()
             })
             .catch(() => alert("There was an error. Please try again later."))
@@ -53,7 +54,7 @@ export default function ContactForm(props) {
                 validationSchema={validationSchema}
                 onSubmit={handleSubmit}
             >
-                {props => {
+                {() => {
                     return (
                         <Form name="contact" action="/success">
                             <input type="hidden" name="form-name" value="contact" />
