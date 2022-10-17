@@ -88,7 +88,7 @@ export default function ContactForm(props) {
                                     name="email"
                                     id=""
                                     aria-label="email"
-                                    placeholder="email"
+                                    placeholder="Email"
                                 />
                                 {touched.email && errors.email &&
                                     <p className="error-message">{errors.email}</p>
