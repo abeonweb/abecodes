@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import * as Yup from "yup"
-// import "animate.css"
 import "../css/Form.css"
 
 export default function ContactForm(props) {
@@ -30,7 +29,7 @@ export default function ContactForm(props) {
                 helpers.resetForm()
             })
             .catch(() => alert("There was an error. Please try again later."))
-            .finally(()=> helpers.setSubmitting(false))
+            .finally(() => helpers.setSubmitting(false))
 
     }
 
@@ -56,7 +55,7 @@ export default function ContactForm(props) {
             >
                 {() => {
                     return (
-                        <Form name="contact" action="/success">
+                        <Form name="contact">
                             <input type="hidden" name="form-name" value="contact" />
                             <p className="form-info">Leave your contact information and a detailed message.</p>
                             <p className="form-info">I will get in contact using the information you provide.</p>
@@ -81,7 +80,6 @@ export default function ContactForm(props) {
                                 aria-label="submit button">
                                 Send
                             </button>
-                            {/* <p className="privacy-policy-statement">We respect your right to privacy.</p> */}
                         </Form>
                     )
                 }}
