@@ -17,7 +17,7 @@ export default function About() {
                         <p className="about-body">Programming is a different kind of captivating language.  I started by learning Java.
                             I even got the OCA certification. Then I got into web development and got hooked. I enjoy
                             the development process.
-                            I also enjoy problem solving.I like solving code problems every once in a while on
+                            I also enjoy problem solving. I like solving code problems every once in a while on
                             Coding Bat and Code Wars. Those can be a challenge but difficult problems are an opportunity
                             to learn something new and grow.</p>
 
@@ -29,7 +29,7 @@ export default function About() {
                             perfect and I always get stuck.</p>
 
                         <p className="about-body">A challenge that I had was learning when to stop being dogged and
-                            ask for help (or just use google). Luckily that is in the past. Now I learn
+                            ask for help (or just use google). I have recognized the flaw and addressed it. Now I learn
                             faster and better because I use multiple ways to acquire the knowledge. I think
                             I'm a lot better for it.</p>
 
