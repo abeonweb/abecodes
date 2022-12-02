@@ -4,8 +4,6 @@
   margin: 0 auto;
 }
 
-
-
 .section {
   min-height: 80vh;
   padding: 5em 2em 3em;
@@ -67,15 +65,6 @@
 .hero-info-container {
   padding: 0 1.5em;
 }
-
-.block-2 {
-  height: 10px;
-  width: 60%;
-  display: none;
-  
-}
-
-
 
 .job-title {
   font-size: 0.5em;
@@ -174,13 +163,7 @@
   .hero-info-container {
     padding: 0 0 0 6em;
   }
-  
-  .block-2 {
-    width: 20%;
-    display: block;
-    padding: 0;
-  }
-  
+    
   .social-media-icon {
     width: 30px;
     

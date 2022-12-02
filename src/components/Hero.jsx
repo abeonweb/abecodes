@@ -1,11 +1,8 @@
-// import abecodes from "../images/abecodes.png";
 
 function Hero() {
   return (
     <section id="home-hero" className="hero">
-      {/* <div className="block block-2" /> */}
       <div className="block hero-info-container">
-        {/* <img src={abecodes} className="logo" alt="Abe codes logo" /> */}
         <h1 className="title">
           Hi, I&apos;m Abiodun Oke
           <span className="secondary-title">but you can call me <span className="highlight">Abe</span></span>
@@ -105,7 +102,6 @@ function Hero() {
           </p>
         </div>
       </div>
-      {/* <div className="block block-2" /> */}
     </section>
   );
 }
