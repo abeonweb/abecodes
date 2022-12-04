@@ -36,7 +36,7 @@ const projects = [
         stack: ["React", "Javascript", "CSS3", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "https://abeonweb.github.io/road-rescue-site",
+        site: "https://roadrescuenigeria.com",
         github: "not available", 
     },
     {
