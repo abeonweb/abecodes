@@ -84,8 +84,8 @@ const projects = [
         stack: ["React", "Javascript", "CSS3", "Material UI"],
         showSite: false,
         showGithub: false,
-        site: "https://abeonweb.github.io/road-rescue-site",
-        github: "not available", 
+        site: "https://abeonweb.github.io/",
+        github: "", 
     },
 ]
 
@@ -93,13 +93,14 @@ const skills = [
     { name: "React", image: "react" },
     { name: "JavaScript", image: "js" },
     // { name:"Java", image: "java"},
-    { name: "TypeScript", image: "ts" },
+    // { name: "TypeScript", image: "ts" },
     { name: "Responsive Design", image: "responsive" },
     { name: "Material UI", image: "material-ui" },
     // { name: "VS Code", image: "vscode" },
     { name: "Github", image: "github" },
     { name: "Git", image: "git" },
-    { name: "Command Line", image: "command" },
+    // { name: "Command Line", image: "command" },
+    { name: "Figma", image: "figma" },
 
 ]
 

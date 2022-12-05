@@ -4,10 +4,10 @@ function Hero() {
     <section id="home-hero" className="hero">
       <div className="block hero-info-container">
         <h1 className="title">
-          Hi, I&apos;m Abiodun Oke
-          <span className="secondary-title">but you can call me <span className="highlight">Abe</span></span>
+          Hi, I&apos;m Abiodun Oke.
+          <span className="secondary-title">You can call me <span className="highlight">Abe</span></span>
           <span className="job-title">
-            I&apos;m a
+            
             <span className="highlight"> Frontend Web Developer </span>
             {/* and
             <span className="highlight"> Java Programmer</span> */}
