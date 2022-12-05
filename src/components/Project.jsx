@@ -14,9 +14,9 @@ export default function Project(props) {
                         {techStack}
                     </ul>
                     <p className="project-description">{props.project.description}</p>
-                    <div className="project-links">
-                        {props.project.showSite && <a href={props.project.site} target="_blank" rel="noopener noreferrer" className="">Site</a>}
-                        {props.project.showGithub && <a href={props.project.github} target="_blank" rel="noopener noreferrer" className="">Github</a>}
+                    <div className="project-links-container">
+                        {props.project.showSite && <a href={props.project.site} target="_blank" rel="noopener noreferrer" className="project-links">Site</a>}
+                        {props.project.showGithub && <a href={props.project.github} target="_blank" rel="noopener noreferrer" className="project-links">Github</a>}
                     </div>
                 </div>
                 <div className="project-image-container">
