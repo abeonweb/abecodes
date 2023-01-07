@@ -58,7 +58,7 @@ function Navbar() {
                     <img src={logo} className="logo-nav" alt="" />
                 </div>
 
-                <div onClick={handleClick} className="menu-icon ">
+                <div onClick={handleClick} className="menu-icon">
                     <span className="hamburger"></span>
                 </div>
                 <nav className="nav">
