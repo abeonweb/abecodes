@@ -19,7 +19,7 @@ export default function Skills() {
                 {/* <img src={myPhoto} alt="" className="profile-image" /> */}
                 <div className="about-me-info">
                     <h3>Brief history</h3>
-                    <p className="about-me-body">I like picking up and learning new things , finding better
+                    <p className="about-me-body">I like picking up and learning new things, finding better
                         ways to do things. Simplifying a task whenever possible. Problem solving and helping people
                         are strong motivators. I also enjoy instrumental music and beautiful landscapes.
 
