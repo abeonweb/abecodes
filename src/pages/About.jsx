@@ -49,7 +49,7 @@ export default function About() {
                     </div>
                     <div className="cv-container">
                         <p className="cv-text">Want to take a look at my <span className="about-highlight">
-                            <a href="https://drive.google.com/file/d/1ee7TgdQmZ7tRIr2h6A1o5D5XaGhDwkge/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <a href="https://docs.google.com/document/d/e/2PACX-1vRe4CVT0dDD4xnfQ9yBEcfsFMWedRNodFaTATh-qJV7YOBcuMXWu_FkTANClPDQbA/pub" target="_blank" rel="noreferrer">
                                 CV
                             </a>
                         </span>
