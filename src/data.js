@@ -27,20 +27,19 @@ const links = [
 ]
 
 const projects = [
-    // {
-    //     id: 0,
-    //     title: "Road Rescue and Maintenance Company",
-    //     description: "I was brought on to build a website for a new business focused on road repair. After engaging with the company CEO and other members of the company, I was able to ascertain what the vision the company had in mind. React was very good to use because of its client side rendering that reduced load time, increasing performance",
-    //     image: "road-rescue",
-    //     alt: "road rescue and maintenance",
-    //     stack: ["React", "Javascript", "CSS3", "Material UI"],
-    //     showSite: true,
-    //     showGithub: false,
-    //     site: "https://roadrescuenigeria.com",
-    //     github: "not available", 
-    // },
     {
-
+        id: 0,
+        title: "Road Rescue and Maintenance Company",
+        description: "I was brought on to build a website for a new business focused on road repair. After engaging with the company CEO and other members of the company, I was able to ascertain what the vision the company had in mind. React was very good to use because of its client side rendering that reduced load time, increasing performance",
+        image: "road-rescue",
+        alt: "road rescue and maintenance",
+        stack: ["React", "Javascript", "Material UI"],
+        showSite: true,
+        showGithub: false,
+        site: "https://roadrescuenigeria.com",
+        github: "not available", 
+    },
+    {
 
         id: 1,
         title: "Marine Express Logsistics",
@@ -48,7 +47,7 @@ const projects = [
         Next.js framework was used to increase performance using server-side rendering`,
         image: "menl",
         alt: "road rescue and maintenance",
-        stack: ["React", "Javascript", "CSS3", "Material UI"],
+        stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
         site: "https://www.marineexpresslogistics.com",
