@@ -36,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  padding-top: 3em;
 }
 
 .project-image {
@@ -250,10 +251,10 @@
 
   .project-image-container {
     width: 45%;
-    align-self: center;
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
-    padding-top: 4em;
+    padding-top: 2em;
   }
 
   .project-links-container{
