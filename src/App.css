@@ -5,7 +5,7 @@
 }
 
 .section {
-  min-height: 80vh;
+  min-height: 50vh;
   padding: 5em 2em 3em;
 }
 
@@ -55,11 +55,11 @@
   text-align: left;
   display: flex;
   justify-content: space-between;
-  color: var(--clr-light);
+  color: var(--color-light);
   align-items: center;
   background: rgb(36, 36, 36);
   background: linear-gradient(156deg, rgba(36, 36, 36, 1) 0%, rgba(20, 20, 94, 1) 54%, rgba(4, 121, 145, 1) 100%);
-  text-shadow: 1px 1px 2px var(--clr-dark);
+  text-shadow: 1px 1px 2px var(--color-dark);
 }
 
 .hero-info-container {
@@ -104,7 +104,7 @@
 }
 
 .highlight {
-  color: var(--clr-highlight);
+  color: var(--color-highlight);
 }
 
 .success,
@@ -151,7 +151,7 @@
   margin: 2em auto 2em;
 }
 .email-address{
-  color: var(--clr-highlight);
+  color: var(--color-highlight);
   font-size: 1.5em;
   text-decoration: none;
 }
