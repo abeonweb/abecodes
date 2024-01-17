@@ -129,6 +129,7 @@ const projects = [
 
 const skills = [
     { name: "React", image: "react" },
+    { name: "Node", image: "node" },
     { name: "JavaScript", image: "js" },
     // { name:"Java", image: "java"},
     // { name: "TypeScript", image: "ts" },
