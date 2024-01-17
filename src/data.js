@@ -48,7 +48,7 @@ const projects = [
         stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "https://roadrescuenigeria.com",
+        site: "road-rescue-git-main-abeonweb.vercel.app",
         github: "not available", 
     },
     {
@@ -58,11 +58,11 @@ const projects = [
         description: `The site was designed to the specifications of the business owner while keeping in mind the best practices.
         Next.js framework was used to increase performance using server-side rendering`,
         image: "menl",
-        alt: "road rescue and maintenance",
+        alt: "Marine express logistic company",
         stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "https://www.marineexpresslogistics.com",
+        site: "marine-express-site-git-main-abeonweb.vercel.app",
         github: "not available", 
     },
     {
