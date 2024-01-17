@@ -36,7 +36,7 @@ const projects = [
         stack: ["React", "NextJS", "Javascript", "Tailwind CSS"],
         showSite: true,
         showGithub: false,
-        site: "https://perfectscrubcleaning.ca",
+        site: "https://www.perfectscrubcleaning.com",
         github: "not available", 
     },
     {
