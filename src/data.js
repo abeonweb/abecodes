@@ -48,7 +48,7 @@ const projects = [
         stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "road-rescue-git-main-abeonweb.vercel.app",
+        site: "https://road-rescue-git-main-abeonweb.vercel.app",
         github: "not available", 
     },
     {
@@ -62,7 +62,7 @@ const projects = [
         stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "marine-express-site-git-main-abeonweb.vercel.app",
+        site: "https://marine-express-site-git-main-abeonweb.vercel.app",
         github: "not available", 
     },
     {
