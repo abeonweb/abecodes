@@ -33,6 +33,11 @@ export default function About() {
                             faster and better because I use multiple ways to acquire the knowledge. I think
                             I'm a lot better for it.</p>
 
+                        <h3>Current Projects and Learning</h3>
+                        <p className="about-body">At the moment I am working freelance developing websites for clients. It is fun, engaging, frustrating and rewarding</p>
+
+                        <p className="about-body">When I am not developing on the frontend I am learning Backend web development with a focus on the MERN stack (MongoDB, Express, React and Node). I also work on learning Python, Java, Typescript to increase my programming languanges and be better rounded.</p>
+
                         <h3>What the future looks like</h3>
                         <p className="about-body">To overcome a difficulty by applying yourself to the task. That is an acquired skill for me.
                             Not knowing when to ask for help was initially an issue. I struggled with this for a time.
@@ -49,7 +54,7 @@ export default function About() {
                     </div>
                     <div className="cv-container">
                         <p className="cv-text">Want to take a look at my <span className="about-highlight">
-                            <a href="https://drive.google.com/file/d/1YynrS36OlFf4JJ34vRhXVaQnT-4E6zuQ/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <a href="https://drive.google.com/file/d/1Y68e7RgMZx94DIbWvcOw6j0IUYcegZjF/view?usp=sharing" target="_blank" rel="noreferrer">
                                 CV
                             </a>
                         </span>
