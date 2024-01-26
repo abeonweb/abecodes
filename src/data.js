@@ -46,11 +46,11 @@ const projects = [
         description: `The site was designed to the specifications of the business owner while keeping in mind the best practices.
         Next.js framework was used to increase performance using server-side rendering`,
         image: "menl",
-        alt: "Marine express logistic company",
+        alt: "Marine Express Logistic company",
         stack: ["React", "Javascript", "Material UI"],
         showSite: true,
         showGithub: false,
-        site: "https://marine-express-site-git-main-abeonweb.vercel.app",
+        site: "https://www.marineexpresslogistics.com/",
         github: "not available", 
     },
     {
