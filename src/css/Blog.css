@@ -1,0 +1,48 @@
+/* ====================== BLOG ====================== */
+.blog {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 5em 2em 3em;
+}
+
+.posts-list {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.post {
+  min-width: 30rem;
+  max-width: 40rem;
+}
+
+.page-title {
+  margin-bottom: 8rem;
+}
+
+.back-button {
+  display: block;
+  margin: 10rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.post-content {
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .post-content {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .posts-list {
+    flex-direction: row;
+  
+  }
+}

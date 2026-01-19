@@ -2,27 +2,27 @@ const links = [
     {
         name: "Home",
         link: "/#home-hero",
-        id:1
+        id: 1
     },
     {
         name: "Portfolio",
         link: "/#work",
-        id:2
+        id: 2
     },
-    // {
-    //     name: "Blog",
-    //     link: "blog",
-    //     id:3
-    // },
+    {
+        name: "Blog",
+        link: "blog",
+        id: 3
+    },
     {
         name: "About me",
         link: "about",
-        id:4
+        id: 4
     },
     {
         name: "Contact",
         link: "/#contact",
-        id:5
+        id: 5
     },
 ]
 
@@ -30,64 +30,67 @@ const projects = [
     {
         id: 0,
         title: "Perfect Scrub Cleaning",
-        description: "A new startup cleaning company based in Toronto, Canada. The owners wanted a site that showcased the services and facilities that they service. I decided on NextJS so as enable SEO with Static Site Generation. The site is optimized for fast renderering as well.",
+        description: "Full-stack B2B cleaning services platform with an integrated contractor management system. Built with Next.js for server-side rendering and SEO optimization, featuring role-based dashboards for workers, subcontractors, and admins. Job booking & subcontractor approval system. Two-factor authentication & password reset workflows. Fully containerized with Docker.",
         image: "perfect-scrub",
         alt: "Perfect Scrub Cleaning Services",
-        stack: ["React", "NextJS", "Javascript", "Tailwind CSS"],
+        stack: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma ORM", "NextAuth", "Resend", "React Hook Form", "Zod", "Docker"],
         showSite: true,
         showGithub: false,
         site: "https://www.perfectscrubcleaning.com",
-        github: "not available", 
+        github: "not available",
     },
     {
-        
+
         id: 1,
-        title: "Marine Express Logsistics",
-        description: `The site was designed to the specifications of the business owner while keeping in mind the best practices.
-        Next.js framework was used to increase performance using server-side rendering`,
-        image: "menl",
-        alt: "Marine Express Logistic company",
-        stack: ["React", "Javascript", "Material UI"],
+        title: "PeppaSync.ai",
+        description: `PeppaSync.ai is an AI-driven growth platform built for scaling e-commerce brands to uncover hidden revenue and protect profit. The product connects marketplace and DTC data, then uses AI to surface missed opportunities, pricing issues, and under-promoted high-margin products in real time.
+
+I built the frontend interface that makes complex data easy to understand and act on. Focused on performance, clarity, and seamless UX to help teams make smarter, revenue-driven decisions. The backend and data infrastructure were handled by the core team.`,
+        image: "peppasync",
+        alt: "PeppaSync.ai — The Strategic AI Growth Engine for E-commerce",
+        stack: ["Next.js", "Tailwind CSS", "React Query",],
         showSite: true,
         showGithub: false,
-        site: "https://www.marineexpresslogistics.com/",
-        github: "not available", 
+        site: "https://peppasync.ai/",
+        github: "not available",
     },
     {
         id: 2,
-        title: "Road Rescue and Maintenance Company",
-        description: "I was brought on to build a website for a new business focused on road repair. After engaging with the company CEO and other members of the company, I was able to ascertain what the vision the company had in mind. React was very good to use because of its client side rendering that reduced load time, increasing performance",
-        image: "road-rescue",
-        alt: "road rescue and maintenance",
-        stack: ["React", "Javascript", "Material UI"],
+        title: "Combs & Clippers",
+        description: `Combs & Clippers is a smart barber-focused platform that helps professionals manage their schedule, grow their client base, and maximize income—all from one easy-to-use app. It lets barbers book appointments 24/7, communicate with clients, accept mobile payments, track earnings, and showcase their work to attract new business.
+
+I built the frontend interface with a clean, responsive design that makes complex booking and business-management tools feel simple and intuitive. Focused on performance, usability, and polished UI interactions so barbers can manage their business effortlessly.`,
+        image: "combsandclippers",
+        alt: "Combs & Clippers",
+        stack: ["Next.js", "Redux", "Tailwind CSS"],
         showSite: true,
         showGithub: false,
-        site: "https://road-rescue-git-main-abeonweb.vercel.app",
-        github: "not available", 
+        site: "https://combsandclippers.com/",
+        github: "not available",
     },
     {
         id: 3,
         title: "VisaPassNG",
-        description: "A website dedicated to helping Nigerians in their pasport and visa application processes. It makes information easily accessible to the end user as well as helping in the tracking of passport delivers back to their owners",
+        description: "A website dedicated to helping Nigerians navigate passport and visa application processes. Provides easily accessible information and helps users track passport delivery status. Built with a focus on user-friendly navigation and clear information architecture.",
         image: "visapassng",
         alt: "visapass NG homepage",
-        stack: ["Javascript", "Tailwind CSS"],
+        stack: ["HTML", "Javascript", "Tailwind CSS"],
         showSite: true,
         showGithub: false,
         site: "https://visapassng.netlify.app/",
-        github: "", 
+        github: "",
     },
     {
         id: 4,
-        title: "Folake and Oluwole Wedding",
-        description: "The couple wanted a custom website for their special day. I was able to use React and some packages to bring it to life",
-        image: "fowedding",
-        alt: "",
-        stack: ["React", "Javascript", "CSS3"],
+        title: "Rakota Trader",
+        description: "A comprehensive web platform designed to educate users about forex trading while providing access to professional trading signals. The platform features an intuitive learning management system with structured educational resources, a community-driven signals subscription system, and a qualification flow to match users with appropriate trading strategies. I built the responsive frontend interface and user experience, while the backend infrastructure and trading logic were handled by the core development team.",
+        image: "rakota",
+        alt: "Rakota Trader - Learn forex trading with professional trading signals",
+        stack: ["Next.js", "TypeScript", "Tailwind CSS",],
         showSite: true,
         showGithub: false,
-        site: "https://folakeandoluwole.com",
-        github: "", 
+        site: "https://rakotatrader.com",
+        github: "",
     },
     // {
     //     id: 5,
@@ -127,20 +130,49 @@ const projects = [
     // },
 ]
 
-const skills = [
-    { name: "React", image: "react" },
-    { name: "Node", image: "node" },
-    { name: "JavaScript", image: "js" },
-    // { name:"Java", image: "java"},
-    // { name: "TypeScript", image: "ts" },
-    { name: "Responsive Design", image: "responsive" },
-    { name: "Material UI", image: "material-ui" },
-    // { name: "VS Code", image: "vscode" },
-    { name: "Github", image: "github" },
-    { name: "Git", image: "git" },
-    // { name: "Command Line", image: "command" },
-    { name: "Figma", image: "figma" },
-
+const skillCategories = [
+    {
+        category: "Frontend",
+        skills: [
+            { name: "React", proficiency: "Expert" },
+            { name: "TypeScript", proficiency: "Advanced" },
+            { name: "Next.js", proficiency: "Advanced" },
+            { name: "Tailwind CSS", proficiency: "Advanced" },
+            { name: "Responsive Design", proficiency: "Expert" },
+            { name: "JavaScript", proficiency: "Expert" },
+            { name: "Redux", proficiency: "Expert" },
+            { name: "React Query", proficiency: "Expert" },
+            { name: "RESTful APIs", proficiency: "Expert" },
+            { name: "Jest & Vitest", proficiency: "Expert" },
+        ]
+    },
+    {
+        category: "Backend & Databases",
+        skills: [
+            { name: "Node.js", proficiency: "Advanced" },
+            { name: "PostgreSQL", proficiency: "Advanced" },
+            { name: "MongoDB", proficiency: "Advanced" },
+            { name: "Prisma ORM", proficiency: "Advanced" },
+            { name: "SQL", proficiency: "Advanced" },
+            { name: "Express.js", proficiency: "Advanced" },
+            { name: "NextAuth", proficiency: "Expert" },
+            { name: "OAuth & JWT", proficiency: "Advanced" },
+            { name: "Role-Based Access Control (RBAC)", proficiency: "Advanced" },
+            { name: "Zod (for validation)", proficiency: "Expert" },
+            { name: "React Hook Forms", proficiency: "Expert" },
+            { name: "Resend", proficiency: "Expert" },
+        ]
+    },
+    {
+        category: "Tools & DevOps",
+        skills: [
+            { name: "Git", proficiency: "Expert" },
+            { name: "GitHub", proficiency: "Expert" },
+            { name: "Docker", proficiency: "Intermediate" },
+            { name: "Postman", proficiency: "Expert" },
+            { name: "Figma", proficiency: "Intermediate" },
+        ]
+    },
 ]
 
-export { projects, skills, links }
+export { projects, skillCategories, links }

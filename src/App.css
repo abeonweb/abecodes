@@ -2,6 +2,7 @@
   max-width: 100%;
   min-height: 100vh;
   margin: 0 auto;
+  width: auto;
 }
 
 .section {
@@ -25,10 +26,6 @@
   filter: drop-shadow(0 0 2em #b4b8f9aa);
 }
 
-
-
-
-
 .title {
   font-size: 3.2em;
   line-height: 1.1;
@@ -44,6 +41,9 @@
   font-weight: 300;
 }
 
+.sub-heading {
+  font-size: 1.4rem;
+}
 
 
 
@@ -126,14 +126,6 @@
 }
 
 
-
-
-
-/* ====================== BLOG ====================== */
-
-
-
-
 /* ====================== CONTACT ====================== */
 /* .contact{
   padding-top: 2.5em;
@@ -187,11 +179,7 @@
     animation: gradient 40s ease infinite;
   }
   
-  .logo,
-  .nav-logo {
-    animation: logo-flip 1.75s ease-in;
-  }
-
+  
   .stack-image:hover,
   .stack-image:active {
     animation: resize 500ms ease-in-out;
@@ -211,16 +199,6 @@
   
   100% {
     transform: scale(1);
-  }
-}
-
-@keyframes logo-flip {
-  0% {
-    transform: rotateY(0deg);
-  }
-
-  100% {
-    transform: rotateY(360deg);
   }
 }
 
