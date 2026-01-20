@@ -83,7 +83,7 @@ export default function About() {
               Want to take a look at my{" "}
               <span className="about-highlight">
                 <a
-                  href="https://drive.google.com/file/d/1nIGb80YC1kvrWF_cwve0Qpm-3JSlLqak/view?usp=sharing"
+                  href="https://drive.google.com/file/d/13xf5yfiEdneL-T_Fv3VCrkhhO1S3UtGP/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
